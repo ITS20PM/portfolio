@@ -1,6 +1,9 @@
 import React from 'react'
 
 const Projects = () => {
+
+  
+
   return (
     <div name="projects"
     className="bg-gradient-to-l from-slate-600 to-cyan-800 w-full text-white md:h-screen">
