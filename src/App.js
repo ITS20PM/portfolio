@@ -1,8 +1,9 @@
 import './App.css';
 import './index.css';
 import Nav from './Components/Nav';
+import Home from './Components/Home';
 import Bottom from './Components/Bottom';
-import Home from './Home';
+
 
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
     <div>
       <Nav />
       <Home />
+      <Bottom />
     </div>
   );
 }
