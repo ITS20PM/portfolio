@@ -5,7 +5,6 @@ import Home from './Components/Home';
 import Bottom from './Components/Bottom';
 
 
-
 function App() {
   return (
     <div>
