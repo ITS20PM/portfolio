@@ -1,13 +1,14 @@
 import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap/dist/js/bootstrap.min.js';
+import './index.css';
 import Nav from './Components/Nav';
+
 
 function App() {
   return (
-    <div>
+    <>
       <Nav />
-    </div>
+      <div className='bg-slate-500 w-full h-screen'></div>
+    </>
     
   );
 }
