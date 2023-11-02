@@ -1,8 +1,8 @@
 import React from 'react'
 
-const Home = () => {
+const Body = () => {
   return (
-    <div className='h-screen w-full text-green-800 text-4xl'>
+    <div name="home" className='h-screen w-full text-green-800 text-4xl'>
         <div className='max-w-screen-lg mx-auto flex flex-col 
         items-left justify-center h-screen px-4'>
             <div>
@@ -14,4 +14,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default Body
